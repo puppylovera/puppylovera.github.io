@@ -4,16 +4,35 @@ body {
 h1{
   color:#F5F1F1;
 }
+h2{
+  color:#F5F1F1;
+}
 p{
   color:#F5F1F1;
 }
 #name{
   text-align: center;
 }
-#intro{
+#intro, #projects {
   text-align: center;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #90A8BC;
+  display: grid;
+  place-items: center;
+  border: 5px solid #90A8BC;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #a4a0b5;
+  padding: 10px;
+}
+.container div {
+  background-color: #90A8BC;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
 }
 
