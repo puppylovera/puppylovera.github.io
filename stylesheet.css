@@ -13,7 +13,7 @@ p{
 #name{
   text-align: center;
 }
-#intro, #projects {
+#intro{
   text-align: center;
   display: grid;
   place-items: center;
@@ -21,6 +21,31 @@ p{
   padding: 20px;
   width: 80%;
   margin: 20px auto;
+}
+#projects {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  border: 5px solid #90A8BC;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  im
+  h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 16px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 }
 .container {
   display: grid;
