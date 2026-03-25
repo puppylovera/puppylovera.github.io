@@ -107,3 +107,13 @@ h3 {
   width: 50%;
   height: auto;
 }
+#photo-2{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
