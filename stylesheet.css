@@ -117,3 +117,30 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.custom-size{
+  margin:1rem;
+  width:100px;
+}
+
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#skills {
+  text-align: center;
+  border: 5px solid #90A8BC;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #a4a0b5;
+}
+
+#skills .col-md-2 {
+  background-color: #90A8BC;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
